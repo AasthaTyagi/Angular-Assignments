@@ -1,0 +1,5 @@
+<p [ngStyle]="{'background-color': style.color}"  (click)="passToParent()">first-component works!</p>
+<div appHighlight="blue">
+    <p>Parent Component Text</p>
+    <app-child-component></app-child-component>
+  </div>
